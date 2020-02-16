@@ -1,0 +1,3 @@
+in python you can read an entire file
+in python you can read line by line
+in python you can make a list of lines from a file
