@@ -7,9 +7,6 @@ for filename in file_names:
         with open(file) as file_object:
             contents = file_object.read()
     except FileNotFoundError:
-        print("The file " + filename + " does not exist.")
+        pass
     else:
         print(contents)
-
-
-
